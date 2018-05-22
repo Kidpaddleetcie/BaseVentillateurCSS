@@ -1,0 +1,62 @@
+.Rotation{
+  animation: rotation linear 0.7s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: rotation linear 0.7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: rotation linear 0.7s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: rotation linear 0.7s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: rotation linear 0.7s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes rotation{
+  0% {
+    transform:  rotate(-360deg) ;
+  }
+  100% {
+    transform:  rotate(0deg) ;
+  }
+}
+
+@-moz-keyframes rotation{
+  0% {
+    -moz-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+}
+
+@-o-keyframes rotation {
+  0% {
+    -o-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -o-transform:  rotate(0deg) ;
+  }
+}
+
+@-ms-keyframes rotation {
+  0% {
+    -ms-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(0deg) ;
+  }
+}
